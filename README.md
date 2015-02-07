@@ -10,13 +10,13 @@ That's also why things such as ```printf``` haven't been used - I wanted to prac
 ## Using
 
 Hash supports the following commands:
-- ```hashwrite <filename>```: Create an empty file called ```filename``` - just like touch.
+- ```hashcreate <filename>```: Create an empty file called ```filename``` - just like touch.
 - ```hashread <filename>```: Read from ```filename``` and print it to screen.
 - ```e <path to binary>```: Execute the binary at ```path to binary```.
 
 ## Example usage
 
-```hashwrite test.c```
+```hashcreate test.c```
 
 ```hashread test.c```
 
