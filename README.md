@@ -1,5 +1,4 @@
-# hash
-Have Another SHell
+# hash (Have Another SHell)
 
 This is a shell I worked on for a practical during my System Software and Compilers course.
 
