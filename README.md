@@ -2,21 +2,18 @@
 
 This is a shell I worked on for a practical during my System Software and Compilers course.
 
-It's not very sane (why would a shell be creating and writing to files...?), but that was the point of the practical.
-
-That's also why things such as ```printf``` haven't been used - I wanted to practice with raw syscalls instead.
+It's not very sane or feature complete.
 
 ## Using
 
-Hash supports the following commands:
-- ```hashcreate <filename>```: Create an empty file called ```filename``` - just like touch.
-- ```hashread <filename>```: Read from ```filename``` and print it to screen.
-- ```e <path to binary>```: Execute the binary at ```path to binary```.
+Right now, ```hash``` doesn't support resolving names from ```PATH```, so instead of typing:
 
-## Example usage
+```
+ls
+```
 
-```hashcreate test.c```
+you will need to type
 
-```hashread test.c```
-
-```e /bin/ls```
+```
+/bin/ls
+```
