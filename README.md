@@ -5,6 +5,8 @@ This is a shell I worked on for a practical during my System Software and Compil
 
 It's not very sane (why would a shell be creating and writing to files...?), but that was the point of the practical.
 
+That's also why things such as ```printf``` haven't been used - I wanted to practice with raw syscalls instead.
+
 ## Using
 
 Hash supports the following commands:
