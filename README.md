@@ -17,3 +17,7 @@ you will need to type
 ```
 /bin/ls
 ```
+
+TODO:
+- Remove the need for libc (write my own malloc, realloc etc).
+- Look up binaries using ```PATH```.
